@@ -5,6 +5,11 @@ class Parser {
     const day = result[1];
     return [month, day];
   }
+
+  static parseList(List) {
+    const peopleList = List.split(',');
+    return peopleList;
+  }
 }
 
 export default Parser;
